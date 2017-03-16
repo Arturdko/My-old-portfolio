@@ -1,0 +1,111 @@
+@media only screen and (max-width: 800px) {
+    .container h1 {
+        font-size: 1.5em;
+  		  padding: 4px 8px;
+  		  font-weight: 700;
+    }
+
+    .container h2 {
+  		font-size: 1em;
+  		text-shadow: black 1px 1px 1px;
+  		padding: 2px;
+    }
+
+    .bot_title {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 500px){
+		.col {
+		width: 100%;
+        height: 300px;
+		}
+}
+
+@media only screen and (max-width: 500px) {
+  .navbar {
+  position: relative;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  text-align: center;
+  width: 100%;
+  height: auto;
+  margin: -5px 0 0 0;
+}
+
+  li {
+    float: none;
+    border: 1px solid #455A64;
+    background: #607D8B;
+  }
+
+  li a:hover:not(.active) {
+  border-bottom: none;
+}
+
+.active {
+  border-bottom: none;
+}
+
+.hvr-underline-from-center:hover {
+	color: #E0E0E0;
+}
+ 
+ .hvr-underline-from-center:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  background: transparent;
+  height: 2px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-underline-from-center:hover:before,
+.hvr-underline-from-center:focus:before, 
+.hvr-underline-from-center:active:before {
+  left: 0;
+  right: 0;
+}
+
+}
+
+@media only screen and (max-width: 500px) {
+    .testimonials {
+  width: 100%;
+  padding: 10px;
+  margin: 0;
+  background-color: #FAFAFA;
+  text-align: left;
+  font-size: 15px;
+}
+
+.testimonials h2 {
+  font-size: 18px;
+}
+
+    .testimonials_heading h1 {
+        font-size: 1.3em;
+        padding: 4px 8px;
+        font-weight: 700;
+    }
+    .testimonials_heading p {
+        font-size: 1em;
+            }
+
+footer {
+  width: 100%;
+  height: 250px;
+  background-color: #455A64;
+  text-align: center;
+  }
+
+}
